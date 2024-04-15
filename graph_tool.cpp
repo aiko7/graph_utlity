@@ -63,14 +63,6 @@ public:
 
 int main() {
   Undirected_graph graph;
-  Node S("S");
-  Node A("A");
-  Node B("B");
-  S.addEdge(new Edge(&S, &A));
-  S.addEdge(new Edge(&S, &B));
-  A.addEdge(new Edge(&A, &B));
-
-  graph.addNode(&S);
-
+  
   return 0;
 }
